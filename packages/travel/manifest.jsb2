@@ -1,0 +1,22 @@
+{
+	"projectName": "travel",
+	"licenseText": "proprietary",
+	"pkgs": [{
+		"name": "travel CSS",
+		"file": "travel.css",
+		"isDebug": true,
+		"fileIncludes": [{
+			"text": "custom.css",
+			"path": "themes/admin/jqadm/"
+		}]
+	}, {
+		"name": "travel JS",
+		"file": "travel.js",
+		"isDebug": true,
+		"fileIncludes": [{
+			"text": "custom.js",
+			"path": "themes/admin/jqadm/"
+		}]
+	}],
+	"resources" : []
+}

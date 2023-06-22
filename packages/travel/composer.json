@@ -1,0 +1,37 @@
+{
+	"name": "aimeos-extensions/travel",
+	"description": "Aimeos travel extension",
+	"keywords": [
+		"aimeos",
+		"extension"
+	],
+	"type": "aimeos-extension",
+	"license": "LGPL-3.0",
+	"prefer-stable": true,
+	"minimum-stability": "dev",
+	"require": {
+		"php": "^8.0.11",
+		"bepsvpt/blurhash": "^2.1.1",
+		"aimeos/aimeos-core": "dev-master",
+		"aimeos/ai-controller-frontend": "dev-master"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "~9.0||~10.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Aimeos\\": "src"
+		},
+		"classmap": [
+			"src"
+		]
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Aimeos\\": "tests"
+		},
+		"classmap": [
+			"tests"
+		]
+	}
+}
